@@ -2099,7 +2099,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/msn/Desktop/iOS/MeiQianZheng/MeiQianZheng/MeiQianZheng.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MeiQianZheng/MeiQianZheng.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -2126,7 +2126,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/msn/Desktop/iOS/MeiQianZheng/MeiQianZheng/MeiQianZheng.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MeiQianZheng/MeiQianZheng.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",

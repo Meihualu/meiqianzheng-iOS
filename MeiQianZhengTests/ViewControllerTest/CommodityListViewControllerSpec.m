@@ -44,29 +44,29 @@ describe(@"CommodityListViewController", ^{
      [[vc should] beKindOfClass:[PhotoViewController class]];
      [[vc.photo shouldNot] beNil];
      */
-    /*
-    context(@"when click a cell", ^{
-        __block CommodityListViewController * listController = nil;
-        beforeEach(^{
-            listController = [[CommodityListViewController alloc] init];
-        });
-        
-        it(@"a detail controller should be pushed", ^{
-            UINavigationController * mockNavController = [UINavigationController mock];
-            [listController stub:@selector(navigationController) andReturn:mockNavController];
-            
-            [[mockNavController should] receive:@selector(pushViewController:animated:)];
-            KWCaptureSpy * spy = [mockNavController captureArgument:@selector(pushViewController:animated:) atIndex:0];
-            
-            NSIndexPath * indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-            [listController tableView:listController.tableView didSelectRowAtIndexPath:indexPath];
-            
-            id obj = spy.argument;
-            CommodityDetailViewController * detailController = obj;
-            [[detailController should] beKindOfClass:[CommodityDetailViewController class]];
-        });
-    });
-     */
+//    
+//    context(@"when click a cell", ^{
+//        __block CommodityListViewController * listController = nil;
+//        beforeEach(^{
+//            listController = [[CommodityListViewController alloc] init];
+//        });
+//        
+//        it(@"a detail controller should be pushed", ^{
+//            UINavigationController * mockNavController = [UINavigationController mock];
+//            [listController stub:@selector(navigationController) andReturn:mockNavController];
+//            
+//            [[mockNavController should] receive:@selector(pushViewController:animated:)];
+//            KWCaptureSpy * spy = [mockNavController captureArgument:@selector(pushViewController:animated:) atIndex:0];
+//            
+//            NSIndexPath * indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+//            [listController tableView:listController.tableView didSelectRowAtIndexPath:indexPath];
+//            
+//            id obj = spy.argument;
+//            CommodityDetailViewController * detailController = obj;
+//            [[detailController should] beKindOfClass:[CommodityDetailViewController class]];
+//        });
+//    });
+    
 });
 
 SPEC_END
