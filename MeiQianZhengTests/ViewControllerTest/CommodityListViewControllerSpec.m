@@ -44,7 +44,7 @@ describe(@"CommodityListViewController", ^{
      [[vc should] beKindOfClass:[PhotoViewController class]];
      [[vc.photo shouldNot] beNil];
      */
-    
+    /*
     context(@"when click a cell", ^{
         __block CommodityListViewController * listController = nil;
         beforeEach(^{
@@ -66,6 +66,7 @@ describe(@"CommodityListViewController", ^{
             [[detailController should] beKindOfClass:[CommodityDetailViewController class]];
         });
     });
+     */
 });
 
 SPEC_END
